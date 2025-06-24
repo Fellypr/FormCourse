@@ -1,12 +1,44 @@
-# React + Vite
+# 📚 Course Form - Sistema de Cadastro e Consulta de Alunos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um sistema completo de **cadastro de alunos com cursos**, desenvolvido com:
 
-Currently, two official plugins are available:
+- Front-end em **React.js**
+- Back-end em **ASP.NET Core**
+- Banco de dados **PostgreSQL**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você pode cadastrar alunos, fazer login como administrador e consultar os dados cadastrados com filtros por nome e curso.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas
+
+### 🖥️ Front-end
+- React JS (Vite)
+- React Router DOM
+- React Icons
+- React Select
+- Axios
+- CSS3
+
+### 🛠️ Back-end
+- ASP.NET Core Web API
+- PostgreSQL
+
+
+---
+
+## 📸 Funcionalidades
+
+- 📝 Cadastro de alunos (Nome, Sobrenome, Email, Telefone, CPF, Curso)
+- 🔐 Autenticação de administrador
+- 📄 Consulta de alunos com filtros (por nome e curso)
+- 🔁 Integração completa com API via Axios
+
+---
+
+## ⚙️ Instalação e Execução
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
