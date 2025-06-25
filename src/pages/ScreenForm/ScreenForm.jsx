@@ -104,7 +104,7 @@ function ScreenForm() {
     setCourse(selectedOption.value);
   };
 
-  function GetDate(e) {
+  async function GetDate(e) {
     try {
       e.preventDefault();
       const data = {
@@ -117,7 +117,7 @@ function ScreenForm() {
         DateCreate: new Date().toISOString(),
       };
 
-      const res = axios.post(
+      const res = await axios.post(
         "https://apiformcouser.onrender.com/api/FormularioCurser/formulario",
         data,
         {
