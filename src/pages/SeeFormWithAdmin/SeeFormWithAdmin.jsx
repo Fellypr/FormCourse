@@ -9,7 +9,7 @@ function SeeFormWithAdmin() {
   const [alunosFiltrados, setAlunosFiltrados] = useState("");
   const [alunosFiltradosPorCurso, setAlunosFiltradosPorCurso] = useState("");
   async function buscarAlunos() {
-    const response = await axios.post("http://localhost:5164/api/FormularioCurser/BuscarAlunos",
+    const response = await axios.post("https://apiformcouser.onrender.com/api/FormularioCurser/BuscarAlunos",
       {
         NomeDoAluno: alunosFiltrados,
         Curso: alunosFiltradosPorCurso 

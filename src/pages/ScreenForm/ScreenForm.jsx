@@ -118,7 +118,7 @@ function ScreenForm() {
       };
 
       const res = axios.post(
-        "http://localhost:5164/api/FormularioCurser/formulario",
+        "https://apiformcouser.onrender.com/api/FormularioCurser/formulario",
         data,
         {
           headers: {
